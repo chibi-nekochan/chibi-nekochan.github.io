@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chibi-nekochan.github.io/sitemap.xml
