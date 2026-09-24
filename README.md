@@ -20,4 +20,4 @@ https://chibi-nekochan.github.io/
 
 ## 画像
 
-`character-design.png` は提供されたキャラクターデザイン原本です。`character-portrait.png` と `og.png` は原本を参照して画像生成で制作したWeb用素材です。キャラクターと画像の再利用ライセンスは付与していません。
+キャラクターデザイン原本はサイト本文には掲載せず、表情と手のひらサイズを伝える紹介に差し替えています。`character-portrait.png`、`og.png`、`smile.png`、`surprise.png`、`palms.png` は原本を参照して画像生成で制作したWeb用素材です。キャラクターと画像の再利用ライセンスは付与していません。
