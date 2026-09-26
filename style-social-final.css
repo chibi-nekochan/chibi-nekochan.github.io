@@ -134,3 +134,23 @@ main>*{position:relative;z-index:1}
 .tiktok-frame{display:flex;justify-content:center;min-height:520px;overflow:hidden;border-radius:16px;background:#fff}
 .tiktok-frame .tiktok-embed{max-width:100%!important;min-width:0!important;margin:0!important}
 @media(max-width:700px){.videos{padding:52px 0}.videos-heading{margin-bottom:24px}.videos-heading h2{font-size:25px}.video-grid{grid-template-columns:1fr;gap:18px;max-width:420px}.video-card{padding:16px;border-radius:20px}.tiktok-frame{min-height:500px}.videos-heading>p:last-child{font-size:13px}}
+
+
+/* TikTok player/v1 uses the same 9:16 frame as the Shorts player. */
+.tiktok-frame{min-height:0;aspect-ratio:9 / 16}
+.tiktok-frame iframe{display:block;width:100%;height:100%;border:0}
+footer{display:flex;align-items:center;justify-content:space-between;gap:16px}
+footer span{display:block}
+footer .footer-links{display:flex;align-items:center;justify-content:flex-end;gap:.55em;text-align:right}
+footer a{position:static;text-decoration:none}
+footer a:hover{text-decoration:underline}
+@media(max-width:700px){footer{align-items:flex-start;flex-direction:column;gap:4px}footer .footer-links{justify-content:flex-start;text-align:left}}
+
+/* Privacy policy */
+.policy{padding:76px 0 100px;max-width:840px}
+.policy h1{font-size:clamp(36px,5vw,54px);white-space:normal;margin:12px 0 26px}
+.policy h2{margin-top:44px;font-size:24px}
+.policy p,.policy li{font-size:15px;line-height:2}
+.policy ul{padding-left:1.5em}
+.policy .policy-date{margin-top:52px;color:var(--muted);font-size:13px}
+@media(max-width:700px){.policy{padding:48px 0 64px}.policy h2{margin-top:34px;font-size:21px}.policy p,.policy li{font-size:14px}}
