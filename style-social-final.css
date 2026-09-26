@@ -25,10 +25,7 @@ section.about{background:#fff0f0!important}
 
 .social-links .social-icon{display:grid;place-items:center;min-width:0;width:62px;height:62px;padding:0;border-radius:50%;font-family:Arial,sans-serif;font-size:27px;font-weight:700;line-height:1}.social-links .social-icon:hover{background:var(--ink);color:#fff}@media(max-width:700px){.social-links{gap:18px}.social-links .social-icon{width:56px;height:56px;font-size:24px}}
 
-.social-icon svg{display:block;width:28px;height:28px}.social-youtube svg{width:33px;height:25px}.social-tiktok svg{width:31px;height:31px}.social-icon .x-mark{font-size:27px;line-height:1}
-
-
-header{overflow:hidden;isolation:isolate}.header-character{position:absolute;z-index:-1;left:52%;top:-24px;width:180px;max-width:none;transform:translateX(-50%);opacity:1;pointer-events:none;user-select:none}.brand,header nav,.menu-toggle{position:relative;z-index:1}.social-main{margin:12px 0 24px;font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.55}.social-note{margin:22px 0 0;font-size:13px;color:var(--muted)}.social .social-links{margin-top:0}@media(max-width:700px){.header-character{width:132px;top:-18px;opacity:1}.social-main{font-size:24px;margin:8px 0 22px}.social-note{font-size:12px;margin-top:18px}}
+.social-icon svg{display:block;width:28px;height:28px}.social-youtube svg{width:33px;height:25px}.social-tiktok svg{width:31px;height:31px}.social-icon .x-mark{font-size:27px;line-height:1}header{overflow:visible;isolation:isolate;z-index:100}.header-character{position:absolute;z-index:-1;left:52%;top:-24px;width:180px;max-width:none;transform:translateX(-50%);opacity:1;pointer-events:none;user-select:none}.brand,header nav,.menu-toggle{position:relative;z-index:1}.social-main{margin:12px 0 24px;font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.55}.social-note{margin:22px 0 0;font-size:13px;color:var(--muted)}.social .social-links{margin-top:0}@media(max-width:700px){.header-character{width:132px;top:-18px;opacity:1}.social-main{font-size:24px;margin:8px 0 22px}.social-note{font-size:12px;margin-top:18px}}
 
 
 /* One menu pattern on every screen: the panel floats over the page, so the header rule never moves. */
