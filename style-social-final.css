@@ -103,6 +103,6 @@ footer span{display:block}
 footer a{position:absolute;right:0;top:0;text-decoration:none;text-align:right}
 footer a:hover{text-decoration:underline}
 @media(max-width:700px){
-  .social-character{inset:auto -13% -13% auto;width:116%;height:116%;opacity:.27;object-position:center}
+  .social-character{inset:auto -2% -3% auto;width:128%;height:128%;opacity:.31;object-position:center}
   footer{font-size:10px}
 }
