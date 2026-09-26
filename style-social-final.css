@@ -154,3 +154,7 @@ footer a:hover{text-decoration:underline}
 .policy ul{padding-left:1.5em}
 .policy .policy-date{margin-top:52px;color:var(--muted);font-size:13px}
 @media(max-width:700px){.policy{padding:48px 0 64px}.policy h2{margin-top:34px;font-size:21px}.policy p,.policy li{font-size:14px}}
+
+/* Keep the complete footer left-aligned at every viewport size. */
+footer{align-items:flex-start;justify-content:flex-start;flex-direction:column;gap:4px}
+footer .footer-links{justify-content:flex-start;text-align:left}
