@@ -115,3 +115,7 @@ main::before{content:"";position:absolute;z-index:-1;inset:0;pointer-events:none
 /* Keep the pattern above the paper color but beneath every section. */
 main::before{z-index:0}
 main>*{position:relative;z-index:1}
+/* Separate section layers and color tones. */
+.about{background:#fff0f0}
+.charm-card:nth-child(3){background:#f3ece8}
+@media(min-width:701px){.social-character{inset:auto -1% 0 auto;width:min(52%,520px);height:100%;object-fit:contain;object-position:right bottom;opacity:.22}}
